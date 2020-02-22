@@ -1,0 +1,1014 @@
+[
+  {
+    "Name": "AatII",
+    "Site": "GACGT/C"
+  },
+  {
+    "Name": "AbaSI",
+    "Site": "CNNNNNNNNNNN/NNNNNNNNNG"
+  },
+  {
+    "Name": "Acc65I",
+    "Site": "G/GTACC"
+  },
+  {
+    "Name": "AccI",
+    "Site": "GT/MKAC"
+  },
+  {
+    "Name": "AciI",
+    "Site": "CCGC(-3/-1)"
+  },
+  {
+    "Name": "AclI",
+    "Site": "AA/CGTT"
+  },
+  {
+    "Name": "AcuI",
+    "Site": "CTGAAG(16/14)"
+  },
+  {
+    "Name": "AfeI",
+    "Site": "AGC/GCT"
+  },
+  {
+    "Name": "AflII",
+    "Site": "C/TTAAG"
+  },
+  {
+    "Name": "AflIII",
+    "Site": "A/CRYGT"
+  },
+  {
+    "Name": "AgeI",
+    "Site": "A/CCGGT"
+  },
+  {
+    "Name": "AhdI",
+    "Site": "GACNNN/NNGTC"
+  },
+  {
+    "Name": "AleI-v2",
+    "Site": "CACNN/NNGTG"
+  },
+  {
+    "Name": "AluI",
+    "Site": "AG/CT"
+  },
+  {
+    "Name": "AlwI",
+    "Site": "GGATC(4/5)"
+  },
+  {
+    "Name": "AlwNI",
+    "Site": "CAGNNN/CTG"
+  },
+  {
+    "Name": "ApaI",
+    "Site": "GGGCC/C"
+  },
+  {
+    "Name": "ApaLI",
+    "Site": "G/TGCAC"
+  },
+  {
+    "Name": "ApeKI",
+    "Site": "G/CWGC"
+  },
+  {
+    "Name": "ApoI",
+    "Site": "R/AATTY"
+  },
+  {
+    "Name": "AscI",
+    "Site": "GG/CGCGCC"
+  },
+  {
+    "Name": "AseI",
+    "Site": "AT/TAAT"
+  },
+  {
+    "Name": "AsiSI",
+    "Site": "GCGAT/CGC"
+  },
+  {
+    "Name": "AvaI",
+    "Site": "C/YCGRG"
+  },
+  {
+    "Name": "AvaII",
+    "Site": "G/GWCC"
+  },
+  {
+    "Name": "AvrII",
+    "Site": "C/CTAGG"
+  },
+  {
+    "Name": "BaeGI",
+    "Site": "GKGCM/C"
+  },
+  {
+    "Name": "BaeI",
+    "Site": "(10/15)ACNNNNGTAYC(12/7)"
+  },
+  {
+    "Name": "BamHI",
+    "Site": "G/GATCC"
+  },
+  {
+    "Name": "BanI",
+    "Site": "G/GYRCC"
+  },
+  {
+    "Name": "BanII",
+    "Site": "GRGCY/C"
+  },
+  {
+    "Name": "BbsI",
+    "Site": "GAAGAC(2/6)"
+  },
+  {
+    "Name": "BbvCI",
+    "Site": "CCTCAGC(-5/-2)"
+  },
+  {
+    "Name": "BbvI",
+    "Site": "GCAGC(8/12)"
+  },
+  {
+    "Name": "BccI",
+    "Site": "CCATC(4/5)"
+  },
+  {
+    "Name": "BceAI",
+    "Site": "ACGGC(12/14)"
+  },
+  {
+    "Name": "BcgI",
+    "Site": "(10/12)CGANNNNNNTGC(12/10)"
+  },
+  {
+    "Name": "BciVI",
+    "Site": "GTATCC(6/5)"
+  },
+  {
+    "Name": "BclI",
+    "Site": "T/GATCA"
+  },
+  {
+    "Name": "BcoDI",
+    "Site": "GTCTC(1/5)"
+  },
+  {
+    "Name": "BfaI",
+    "Site": "C/TAG"
+  },
+  {
+    "Name": "BfuAI",
+    "Site": "ACCTGC(4/8)"
+  },
+  {
+    "Name": "BglI",
+    "Site": "GCCNNNN/NGGC"
+  },
+  {
+    "Name": "BglII",
+    "Site": "A/GATCT"
+  },
+  {
+    "Name": "BlpI",
+    "Site": "GC/TNAGC"
+  },
+  {
+    "Name": "BmgBI",
+    "Site": "CACGTC(-3/-3)"
+  },
+  {
+    "Name": "BmrI",
+    "Site": "ACTGGG(5/4)"
+  },
+  {
+    "Name": "BmtI",
+    "Site": "GCTAG/C"
+  },
+  {
+    "Name": "BpmI",
+    "Site": "CTGGAG(16/14)"
+  },
+  {
+    "Name": "Bpu10I",
+    "Site": "CCTNAGC(-5/-2)"
+  },
+  {
+    "Name": "BpuEI",
+    "Site": "CTTGAG(16/14)"
+  },
+  {
+    "Name": "BsaAI",
+    "Site": "YAC/GTR"
+  },
+  {
+    "Name": "BsaBI",
+    "Site": "GATNN/NNATC"
+  },
+  {
+    "Name": "BsaHI",
+    "Site": "GR/CGYC"
+  },
+  {
+    "Name": "BsaI",
+    "Site": "GGTCTC(1/5)"
+  },
+  {
+    "Name": "BsaJI",
+    "Site": "C/CNNGG"
+  },
+  {
+    "Name": "BsaWI",
+    "Site": "W/CCGGW"
+  },
+  {
+    "Name": "BsaXI",
+    "Site": "(9/12)ACNNNNNCTCC(10/7)"
+  },
+  {
+    "Name": "BseRI",
+    "Site": "GAGGAG(10/8)"
+  },
+  {
+    "Name": "BseYI",
+    "Site": "CCCAGC(-5/-1)"
+  },
+  {
+    "Name": "BsgI",
+    "Site": "GTGCAG(16/14)"
+  },
+  {
+    "Name": "BsiEI",
+    "Site": "CGRY/CG"
+  },
+  {
+    "Name": "BsiHKAI",
+    "Site": "GWGCW/C"
+  },
+  {
+    "Name": "BsiWI",
+    "Site": "C/GTACG"
+  },
+  {
+    "Name": "BslI",
+    "Site": "CCNNNNN/NNGG"
+  },
+  {
+    "Name": "BsmAI",
+    "Site": "GTCTC(1/5)"
+  },
+  {
+    "Name": "BsmBI",
+    "Site": "CGTCTC(1/5)"
+  },
+  {
+    "Name": "BsmBI-v2",
+    "Site": "CGTCTC"
+  },
+  {
+    "Name": "BsmFI",
+    "Site": "GGGAC(10/14)"
+  },
+  {
+    "Name": "BsmI",
+    "Site": "GAATGC(1/-1)"
+  },
+  {
+    "Name": "BsoBI",
+    "Site": "C/YCGRG"
+  },
+  {
+    "Name": "Bsp1286I",
+    "Site": "GDGCH/C"
+  },
+  {
+    "Name": "BspCNI",
+    "Site": "CTCAG(9/7)"
+  },
+  {
+    "Name": "BspDI ClaI",
+    "Site": "AT/CGAT"
+  },
+  {
+    "Name": "BspEI",
+    "Site": "T/CCGGA"
+  },
+  {
+    "Name": "BspHI",
+    "Site": "T/CATGA"
+  },
+  {
+    "Name": "BspMI",
+    "Site": "ACCTGC(4/8)"
+  },
+  {
+    "Name": "BspQI",
+    "Site": "GCTCTTC(1/4)"
+  },
+  {
+    "Name": "BsrBI",
+    "Site": "CCGCTC(-3/-3)"
+  },
+  {
+    "Name": "BsrDI",
+    "Site": "GCAATG(2/0)"
+  },
+  {
+    "Name": "BsrFI-v2",
+    "Site": "R/CCGGY"
+  },
+  {
+    "Name": "BsrGI",
+    "Site": "T/GTACA"
+  },
+  {
+    "Name": "BsrI",
+    "Site": "ACTGG(1/-1)"
+  },
+  {
+    "Name": "BssHII",
+    "Site": "G/CGCGC"
+  },
+  {
+    "Name": "BssSI-v2",
+    "Site": "CACGAG(-5/-1)"
+  },
+  {
+    "Name": "BstAPI",
+    "Site": "GCANNNN/NTGC"
+  },
+  {
+    "Name": "BstBI",
+    "Site": "TT/CGAA"
+  },
+  {
+    "Name": "BstEII",
+    "Site": "G/GTNACC"
+  },
+  {
+    "Name": "BstNI",
+    "Site": "CC/WGG"
+  },
+  {
+    "Name": "BstUI",
+    "Site": "CG/CG"
+  },
+  {
+    "Name": "BstXI",
+    "Site": "CCANNNNN/NTGG"
+  },
+  {
+    "Name": "BstYI",
+    "Site": "R/GATCY"
+  },
+  {
+    "Name": "BstZ17I",
+    "Site": "GTATAC"
+  },
+  {
+    "Name": "Bsu36I",
+    "Site": "CC/TNAGG"
+  },
+  {
+    "Name": "BtgI",
+    "Site": "C/CRYGG"
+  },
+  {
+    "Name": "BtgZI",
+    "Site": "GCGATG(10/14)"
+  },
+  {
+    "Name": "BtsCI",
+    "Site": "GGATG(2/0)"
+  },
+  {
+    "Name": "BtsI-v2",
+    "Site": "GCAGTG(2/0)"
+  },
+  {
+    "Name": "BtsIMutI",
+    "Site": "CAGTG(2/0)"
+  },
+  {
+    "Name": "Cac8I",
+    "Site": "GCN/NGC"
+  },
+  {
+    "Name": "CspCI",
+    "Site": "(11/13)CAANNNNNGTGG(12/10)"
+  },
+  {
+    "Name": "CviAII",
+    "Site": "C/ATG"
+  },
+  {
+    "Name": "CviKI-1",
+    "Site": "RG/CY"
+  },
+  {
+    "Name": "CviQI",
+    "Site": "G/TAC"
+  },
+  {
+    "Name": "DdeI",
+    "Site": "C/TNAG"
+  },
+  {
+    "Name": "DpnI",
+    "Site": "GA/TC"
+  },
+  {
+    "Name": "DpnII",
+    "Site": "/GATC"
+  },
+  {
+    "Name": "DraI",
+    "Site": "TTT/AAA"
+  },
+  {
+    "Name": "DraIII",
+    "Site": "CACNNN/GTG"
+  },
+  {
+    "Name": "DrdI",
+    "Site": "GACNNNN/NNGTC"
+  },
+  {
+    "Name": "EaeI",
+    "Site": "Y/GGCCR"
+  },
+  {
+    "Name": "EagI",
+    "Site": "C/GGCCG"
+  },
+  {
+    "Name": "EarI",
+    "Site": "CTCTTC(1/4)"
+  },
+  {
+    "Name": "EciI",
+    "Site": "GGCGGA(11/9)"
+  },
+  {
+    "Name": "Eco53kI",
+    "Site": "GAG/CTC"
+  },
+  {
+    "Name": "EcoNI",
+    "Site": "CCTNN/NNNAGG"
+  },
+  {
+    "Name": "EcoO109I",
+    "Site": "RG/GNCCY"
+  },
+  {
+    "Name": "EcoP15I",
+    "Site": "CAGCAG(25/27)"
+  },
+  {
+    "Name": "EcoRI",
+    "Site": "G/AATTC"
+  },
+  {
+    "Name": "EcoRV",
+    "Site": "GAT/ATC"
+  },
+  {
+    "Name": "Esp3I",
+    "Site": "CGTCTC(1/5)"
+  },
+  {
+    "Name": "FatI",
+    "Site": "/CATG"
+  },
+  {
+    "Name": "FauI",
+    "Site": "CCCGC(4/6)"
+  },
+  {
+    "Name": "Fnu4HI",
+    "Site": "GC/NGC"
+  },
+  {
+    "Name": "FokI",
+    "Site": "GGATG(9/13)"
+  },
+  {
+    "Name": "FseI",
+    "Site": "GGCCGG/CC"
+  },
+  {
+    "Name": "FspEI",
+    "Site": "CC(12/16)"
+  },
+  {
+    "Name": "FspI",
+    "Site": "TGC/GCA"
+  },
+  {
+    "Name": "HaeII",
+    "Site": "RGCGC/Y"
+  },
+  {
+    "Name": "HaeIII",
+    "Site": "GG/CC"
+  },
+  {
+    "Name": "HgaI",
+    "Site": "GACGC(5/10)"
+  },
+  {
+    "Name": "HhaI",
+    "Site": "GCG/C"
+  },
+  {
+    "Name": "HincII",
+    "Site": "GTY/RAC"
+  },
+  {
+    "Name": "HindIII",
+    "Site": "A/AGCTT"
+  },
+  {
+    "Name": "HinfI",
+    "Site": "G/ANTC"
+  },
+  {
+    "Name": "HinP1I",
+    "Site": "G/CGC"
+  },
+  {
+    "Name": "HpaI",
+    "Site": "GTT/AAC"
+  },
+  {
+    "Name": "HpaII",
+    "Site": "C/CGG"
+  },
+  {
+    "Name": "HphI",
+    "Site": "GGTGA(8/7)"
+  },
+  {
+    "Name": "Hpy166II",
+    "Site": "GTN/NAC"
+  },
+  {
+    "Name": "Hpy188I",
+    "Site": "TCN/GA"
+  },
+  {
+    "Name": "Hpy188III",
+    "Site": "TC/NNGA"
+  },
+  {
+    "Name": "Hpy99I",
+    "Site": "CGWCG/"
+  },
+  {
+    "Name": "HpyAV",
+    "Site": "CCTTC(6/5)"
+  },
+  {
+    "Name": "HpyCH4III",
+    "Site": "ACN/GT"
+  },
+  {
+    "Name": "HpyCH4IV",
+    "Site": "A/CGT"
+  },
+  {
+    "Name": "HpyCH4V",
+    "Site": "TG/CA"
+  },
+  {
+    "Name": "I-CeuI",
+    "Site": "TAACTATAACGGTCCTAAGGTAGCGAA(-9/-13)"
+  },
+  {
+    "Name": "I-SceI",
+    "Site": "TAGGGATAACAGGGTAAT(-9/-13)"
+  },
+  {
+    "Name": "KasI",
+    "Site": "G/GCGCC"
+  },
+  {
+    "Name": "KpnI",
+    "Site": "GGTAC/C"
+  },
+  {
+    "Name": "LpnPI",
+    "Site": "CCDG(10/14)"
+  },
+  {
+    "Name": "MboI",
+    "Site": "/GATC"
+  },
+  {
+    "Name": "MboII",
+    "Site": "GAAGA(8/7)"
+  },
+  {
+    "Name": "MfeI",
+    "Site": "C/AATTG"
+  },
+  {
+    "Name": "MluCI",
+    "Site": "/AATT"
+  },
+  {
+    "Name": "MluI",
+    "Site": "A/CGCGT"
+  },
+  {
+    "Name": "MlyI",
+    "Site": "GAGTC(5/5)"
+  },
+  {
+    "Name": "MmeI",
+    "Site": "TCCRAC(20/18)"
+  },
+  {
+    "Name": "MnlI",
+    "Site": "CCTC(7/6)"
+  },
+  {
+    "Name": "MscI",
+    "Site": "TGG/CCA"
+  },
+  {
+    "Name": "MseI",
+    "Site": "T/TAA"
+  },
+  {
+    "Name": "MslI",
+    "Site": "CAYNN/NNRTG"
+  },
+  {
+    "Name": "MspA1I",
+    "Site": "CMG/CKG"
+  },
+  {
+    "Name": "MspI",
+    "Site": "C/CGG"
+  },
+  {
+    "Name": "MspJI",
+    "Site": "CNNR(9/13)"
+  },
+  {
+    "Name": "MwoI",
+    "Site": "GCNNNNN/NNGC"
+  },
+  {
+    "Name": "NaeI",
+    "Site": "GCC/GGC"
+  },
+  {
+    "Name": "NarI",
+    "Site": "GG/CGCC"
+  },
+  {
+    "Name": "Nb.BbvCI",
+    "Site": "CCTCAGC"
+  },
+  {
+    "Name": "Nb.BsmI",
+    "Site": "GAATGC"
+  },
+  {
+    "Name": "Nb.BsrDI",
+    "Site": "GCAATG"
+  },
+  {
+    "Name": "Nb.BssSI",
+    "Site": "CACGAG"
+  },
+  {
+    "Name": "Nb.BtsI",
+    "Site": "GCAGTG"
+  },
+  {
+    "Name": "NciI",
+    "Site": "CC/SGG"
+  },
+  {
+    "Name": "NcoI",
+    "Site": "C/CATGG"
+  },
+  {
+    "Name": "NdeI",
+    "Site": "CA/TATG"
+  },
+  {
+    "Name": "NgoMIV",
+    "Site": "G/CCGGC"
+  },
+  {
+    "Name": "NheI",
+    "Site": "G/CTAGC"
+  },
+  {
+    "Name": "NlaIII",
+    "Site": "CATG/"
+  },
+  {
+    "Name": "NlaIV",
+    "Site": "GGN/NCC"
+  },
+  {
+    "Name": "NmeAIII",
+    "Site": "GCCGAG(21/19)"
+  },
+  {
+    "Name": "NotI",
+    "Site": "GC/GGCCGC"
+  },
+  {
+    "Name": "NruI",
+    "Site": "TCG/CGA"
+  },
+  {
+    "Name": "NsiI",
+    "Site": "ATGCA/T"
+  },
+  {
+    "Name": "NspI",
+    "Site": "RCATG/Y"
+  },
+  {
+    "Name": "Nt.AlwI",
+    "Site": "GGATC(4/-5)"
+  },
+  {
+    "Name": "Nt.BbvCI",
+    "Site": "CCTCAGC(-5/-7)"
+  },
+  {
+    "Name": "Nt.BsmAI",
+    "Site": "GTCTC(1/-5)"
+  },
+  {
+    "Name": "Nt.BspQI",
+    "Site": "GCTCTTC(1/-7)"
+  },
+  {
+    "Name": "Nt.BstNBI",
+    "Site": "GAGTC(4/-5)"
+  },
+  {
+    "Name": "Nt.CviPII",
+    "Site": "(0/-1)CCD"
+  },
+  {
+    "Name": "PacI",
+    "Site": "TTAAT/TAA"
+  },
+  {
+    "Name": "PaeR7I",
+    "Site": "C/TCGAG"
+  },
+  {
+    "Name": "PciI",
+    "Site": "A/CATGT"
+  },
+  {
+    "Name": "PflFI",
+    "Site": "GACN/NNGTC"
+  },
+  {
+    "Name": "PflMI",
+    "Site": "CCANNNN/NTGG"
+  },
+  {
+    "Name": "PI-PspI",
+    "Site": "TGGCAAACAGCTATTATGGGTATTATGGGT(-13/-17)"
+  },
+  {
+    "Name": "PI-SceI",
+    "Site": "ATCTATGTCGGGTGCGGAGAAAGAGGTAAT(-15/-19)"
+  },
+  {
+    "Name": "PleI",
+    "Site": "GAGTC(4/5)"
+  },
+  {
+    "Name": "PluTI",
+    "Site": "GGCGC/C"
+  },
+  {
+    "Name": "PmeI",
+    "Site": "GTTT/AAAC"
+  },
+  {
+    "Name": "PmlI",
+    "Site": "CAC/GTG"
+  },
+  {
+    "Name": "PpuMI",
+    "Site": "RG/GWCCY"
+  },
+  {
+    "Name": "PshAI",
+    "Site": "GACNN/NNGTC"
+  },
+  {
+    "Name": "PsiI-v2",
+    "Site": "TTA/TAA"
+  },
+  {
+    "Name": "PspGI",
+    "Site": "/CCWGG"
+  },
+  {
+    "Name": "PspOMI",
+    "Site": "G/GGCCC"
+  },
+  {
+    "Name": "PspXI",
+    "Site": "VC/TCGAGB"
+  },
+  {
+    "Name": "PstI",
+    "Site": "CTGCA/G"
+  },
+  {
+    "Name": "PvuI",
+    "Site": "CGAT/CG"
+  },
+  {
+    "Name": "PvuII",
+    "Site": "CAG/CTG"
+  },
+  {
+    "Name": "RsaI",
+    "Site": "GT/AC"
+  },
+  {
+    "Name": "RsrII",
+    "Site": "CG/GWCCG"
+  },
+  {
+    "Name": "SacI",
+    "Site": "GAGCT/C"
+  },
+  {
+    "Name": "SacII",
+    "Site": "CCGC/GG"
+  },
+  {
+    "Name": "SalI",
+    "Site": "G/TCGAC"
+  },
+  {
+    "Name": "SapI",
+    "Site": "GCTCTTC(1/4)"
+  },
+  {
+    "Name": "Sau3AI",
+    "Site": "/GATC"
+  },
+  {
+    "Name": "Sau96I",
+    "Site": "G/GNCC"
+  },
+  {
+    "Name": "SbfI",
+    "Site": "CCTGCA/GG"
+  },
+  {
+    "Name": "ScaI",
+    "Site": "AGT/ACT"
+  },
+  {
+    "Name": "ScrFI",
+    "Site": "CC/NGG"
+  },
+  {
+    "Name": "SexAI",
+    "Site": "A/CCWGGT"
+  },
+  {
+    "Name": "SfaNI",
+    "Site": "GCATC(5/9)"
+  },
+  {
+    "Name": "SfcI",
+    "Site": "C/TRYAG"
+  },
+  {
+    "Name": "SfiI",
+    "Site": "GGCCNNNN/NGGCC"
+  },
+  {
+    "Name": "SfoI",
+    "Site": "GGC/GCC"
+  },
+  {
+    "Name": "SgrAI",
+    "Site": "CR/CCGGYG"
+  },
+  {
+    "Name": "SmaI",
+    "Site": "CCC/GGG"
+  },
+  {
+    "Name": "SmlI",
+    "Site": "C/TYRAG"
+  },
+  {
+    "Name": "SnaBI",
+    "Site": "TAC/GTA"
+  },
+  {
+    "Name": "SpeI",
+    "Site": "A/CTAGT"
+  },
+  {
+    "Name": "SphI",
+    "Site": "GCATG/C"
+  },
+  {
+    "Name": "SrfI",
+    "Site": "GCCC/GGGC"
+  },
+  {
+    "Name": "SspI",
+    "Site": "AAT/ATT"
+  },
+  {
+    "Name": "StuI",
+    "Site": "AGG/CCT"
+  },
+  {
+    "Name": "StyD4I",
+    "Site": "/CCNGG"
+  },
+  {
+    "Name": "StyI",
+    "Site": "C/CWWGG"
+  },
+  {
+    "Name": "SwaI",
+    "Site": "ATTT/AAAT"
+  },
+  {
+    "Name": "TaqI-v2",
+    "Site": "T/CGA"
+  },
+  {
+    "Name": "TfiI",
+    "Site": "G/AWTC"
+  },
+  {
+    "Name": "TseI",
+    "Site": "G/CWGC"
+  },
+  {
+    "Name": "Tsp45I",
+    "Site": "/GTSAC"
+  },
+  {
+    "Name": "TspMI",
+    "Site": "C/CCGGG"
+  },
+  {
+    "Name": "TspRI",
+    "Site": "NNCASTGNN/"
+  },
+  {
+    "Name": "Tth111I",
+    "Site": "GACN/NNGTC"
+  },
+  {
+    "Name": "XbaI",
+    "Site": "T/CTAGA"
+  },
+  {
+    "Name": "XcmI",
+    "Site": "CCANNNNN/NNNNTGG"
+  },
+  {
+    "Name": "XhoI",
+    "Site": "C/TCGAG"
+  },
+  {
+    "Name": "XmaI",
+    "Site": "C/CCGGG"
+  },
+  {
+    "Name": "XmnI",
+    "Site": "GAANN/NNTTC"
+  },
+  {
+    "Name": "ZraI",
+    "Site": "GAC/GTC"
+  }
+]

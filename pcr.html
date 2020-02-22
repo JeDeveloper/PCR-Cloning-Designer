@@ -1,0 +1,132 @@
+<html>
+	<head>
+		<Title>Lambda</Title>
+		<!-- jquery -->
+		<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+		<script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+		<script type="text/javascript" src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+		<!-- dr3 -->
+		<script src="https://d3js.org/d3.v4.min.js"></script>
+		<!-- bootstrap -->
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+		<style type="text/css">
+			fieldset {
+				border: 1px solid black;
+				margin: 1%;
+				padding: 1% 1% 1% 1%;
+			}
+			legend {
+				padding-left: 2.5%;
+				display: initial;
+			}
+			.rec-seq {
+				float: right;
+			}
+
+			#sequence-select, #params {
+				
+			}
+		</style>
+		<script type="text/javascript">
+			var endonucleases = {};
+			String.prototype.reverseCompliment = function()
+			{
+				if (this.length == 1)
+				{
+					if (this == "A")
+						return "T";
+					if (this == "T")
+						return "A";
+					if (this == "G")
+						return "C";
+					if (this == "C")
+						return "G";
+				}
+				else {
+					var comp = "";
+					for (var i = 0; i < this.length; i++)
+					{
+						comp = comp + this[i].reverseCompliment();
+					}
+				}
+				return comp;
+			}
+			$(function(){
+				$('.endonuclease-select').change(function(e){
+					var site = endonucleases[this.value].site;
+					$(e.target).parent().find('.coding').text(site);
+					$(e.target).parent().find('.template').text(site.reverseCompliment());
+				});
+				$.ajax({
+					type: "GET",
+					url: "endonucleases.json",
+					datatype: "json",
+					success: function(response) {
+						JSON.parse(response).map(function(x){
+							if (x['Site'].search('[^/ATGC]') < 0)
+							{
+								var site = x['Site'];
+								endonucleases[x['Name']] = {
+									name: x['Name'], 
+									site: site.substring(0, site.search('/')) + site.substring(site.search('/') + 1), 
+									cut_point: site.search('/')
+								};
+							}
+						});
+						d3.selectAll("select.endonuclease-select").selectAll("option").data(Object.keys(endonucleases)).enter()
+							.append("option")
+								.attr('value', function(d){return d;})
+								.html(function(d){return d;});
+					}
+				});
+			});
+		</script>
+	</head>
+	<body>
+		<div id="top">
+			<div id="sequence-select">
+				<h2>Genome</h2>
+				Sequence ID <input name="seq-id" type="text"><br>
+				Start <input type="number" name="seq-start" >
+				End <input type="number" name="seq-end">
+			</div>
+			<div id="params">
+				<h2>Parameters</h2>
+				Max Annealing Temperature Range <input type="number" name="max-annealing-temp-range"><br>
+				Max Distance from Amplified Sequence <input type="number" name="max-distance-from-seq"><br>
+				Min Overall Size <input type="number" name="min-overall-size"><br>
+				Max Size <input type="number" name="max-overall-size"><br>
+				Min Melting Temperature (&#8451;) <input type="number" name="min-overall-temp"><br>
+				Max Melting Temperature (&#8451;) <input type="number" name="max-overall-temp"><br>
+			</div>
+		</div>
+		<fieldset id="fwd-primer-spec">
+			<legend>Forward Primer</legend>
+			Endonuclease to Include <select class="endonuclease-select"></select>
+			<fieldset class="rec-seq">
+				<legend>Recognition Sequence</legend>
+				<span class="coding"></span><br>
+				<span class="template"></span>
+			</fieldset>
+			Min Size <input type="number" name="min-size"><br>
+			Max Size <input type="number" name="max-size"><br>
+			Min Melting Temperature (&#8451;) <input type="number" name="min-temp"><br>
+			Max Melting Temperature (&#8451;) <input type="number" name="max-temp"><br>
+		</fieldset>
+		<fieldset id="rev-primer-spec">
+			<legend>Reverse Primer</legend>
+			Endonuclease to Include <select class="endonuclease-select"></select>
+			<fieldset class="rec-seq">
+				<legend>Recognition Sequence</legend>
+				<span class="coding"></span><br>
+				<span class="template"></span>
+			</fieldset>
+			Min Size <input type="number" name="min-size"><br>
+			Max Size <input type="number" name="max-size"><br>
+			Min Melting Temperature (&#8451;) <input type="number" name="min-temp"><br>
+			Max Melting Temperature (&#8451;) <input type="number" name="max-temp"><br>
+		</fieldset>
+	</body>
+</html>
